@@ -79,3 +79,7 @@ use App\Http\Controllers\Admin\CategoriesController;
         });
     });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
