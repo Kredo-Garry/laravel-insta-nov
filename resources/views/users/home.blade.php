@@ -4,6 +4,7 @@
 
 @section('content')
     <div class="row gx-5">
+        <p class="text-danger">This is the homepage</p>
         <div class="col-8 bg-light">
             @forelse ($all_posts as $post)
                 <div class="card mb-4">
